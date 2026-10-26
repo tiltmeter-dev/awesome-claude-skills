@@ -376,7 +376,7 @@ import anthropic
 client = anthropic.Anthropic(api_key="your-api-key")
 
 response = client.messages.create(
-    model="claude-3-5-sonnet-20241022",
+    model="claude-sonnet-5-5",
     skills=["skill-id-here"],
     messages=[{"role": "user", "content": "Your prompt"}]
 )
